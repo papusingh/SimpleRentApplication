@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="provider.androidbuffer.com.samplerentapplication.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:overScrollMode="never">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="@dimen/normal_margin">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvPropertyType"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_gravity="center"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/large_text_size"
+                        android:layout_marginTop="@dimen/normal_margin"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/normal_margin"
+                        android:orientation="horizontal"
+                        android:layout_weight="3">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/ivApartment"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="@dimen/normal_margin"
+                            android:src="@drawable/apartment"/>
+
+                        <CheckBox
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/cbApartment"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="@dimen/large_margin"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:textColor="@color/less_black"
+                            android:layout_marginLeft="@dimen/large_margin"
+                            android:textSize="@dimen/large_text_size"
+                            android:id="@+id/tvApartment"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/normal_margin"
+                        android:orientation="horizontal"
+                        android:layout_weight="3">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/ivCondo"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="@dimen/normal_margin"
+                            android:src="@drawable/condo"/>
+
+                        <CheckBox
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/cbCondo"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="@dimen/large_margin"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:textColor="@color/less_black"
+                            android:layout_marginLeft="@dimen/large_margin"
+                            android:textSize="@dimen/large_text_size"
+                            android:id="@+id/tvCondo"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/normal_margin"
+                        android:orientation="horizontal"
+                        android:layout_weight="3">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/ivBoatHouse"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="@dimen/normal_margin"
+                            android:src="@drawable/boat"/>
+
+                        <CheckBox
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/cbBoatHouse"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="@dimen/large_margin"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:textColor="@color/less_black"
+                            android:layout_marginLeft="@dimen/large_margin"
+                            android:textSize="@dimen/large_text_size"
+                            android:id="@+id/tvBoatHouse"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/normal_margin"
+                        android:orientation="horizontal"
+                        android:layout_weight="3">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/ivLand"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="@dimen/normal_margin"
+                            android:src="@drawable/land"/>
+
+                        <CheckBox
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/cbLand"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="@dimen/large_margin"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:textColor="@color/less_black"
+                            android:layout_marginLeft="@dimen/large_margin"
+                            android:textSize="@dimen/large_text_size"
+                            android:id="@+id/tvLand"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/normal_margin"
+                app:cardCornerRadius="@dimen/normal_margin">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvNoOfRooms"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/large_text_size"
+                        android:layout_marginTop="@dimen/normal_margin"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/normal_margin"
+                        android:orientation="horizontal"
+                        android:layout_weight="3">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/ivRooms"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="@dimen/normal_margin"
+                            android:src="@drawable/rooms"/>
+
+                        <CheckBox
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/cbRooms"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="@dimen/large_margin"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:textColor="@color/less_black"
+                            android:layout_marginLeft="@dimen/large_margin"
+                            android:textSize="@dimen/large_text_size"
+                            android:id="@+id/tvRooms"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/normal_margin"
+                        android:orientation="horizontal"
+                        android:layout_weight="3">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/ivNoRooms"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="@dimen/normal_margin"
+                            android:src="@drawable/condo"/>
+
+                        <CheckBox
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/cbNoRooms"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="@dimen/large_margin"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:textColor="@color/less_black"
+                            android:layout_marginLeft="@dimen/large_margin"
+                            android:textSize="@dimen/large_text_size"
+                            android:id="@+id/tvNoRooms"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/normal_margin"
+                app:cardCornerRadius="@dimen/normal_margin">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvOtherFacilities"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/large_text_size"
+                        android:layout_marginTop="@dimen/normal_margin"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/normal_margin"
+                        android:orientation="horizontal"
+                        android:layout_weight="3">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/ivSwimmingPool"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="@dimen/normal_margin"
+                            android:src="@drawable/swimming"/>
+
+                        <CheckBox
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/cbSwimmingPool"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="@dimen/large_margin"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:textColor="@color/less_black"
+                            android:layout_marginLeft="@dimen/large_margin"
+                            android:textSize="@dimen/large_text_size"
+                            android:id="@+id/tvSwimmingPool"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/normal_margin"
+                        android:orientation="horizontal"
+                        android:layout_weight="3">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/ivGardenArea"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="@dimen/normal_margin"
+                            android:src="@drawable/garden"/>
+
+                        <CheckBox
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/cbGardenArea"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="@dimen/large_margin"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:textColor="@color/less_black"
+                            android:layout_marginLeft="@dimen/large_margin"
+                            android:textSize="@dimen/large_text_size"
+                            android:id="@+id/tvGardenArea"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/normal_margin"
+                        android:orientation="horizontal"
+                        android:layout_weight="3">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/ivGarage"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="@dimen/normal_margin"
+                            android:src="@drawable/garage"/>
+
+                        <CheckBox
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/cbGarage"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="@dimen/large_margin"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:textColor="@color/less_black"
+                            android:layout_marginLeft="@dimen/large_margin"
+                            android:textSize="@dimen/large_text_size"
+                            android:id="@+id/tvGarage"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnSucess"
+                android:textColor="@color/less_black"
+                android:background="@color/btn_color"
+                android:text="@string/sucess"
+                android:layout_marginTop="@dimen/normal_margin"
+                android:layout_marginBottom="@dimen/normal_margin"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

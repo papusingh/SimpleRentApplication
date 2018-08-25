@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">SampleRentApplication</string>
+    <string name="property_type">Property Type</string>
+    <string name="apartment">Apartment</string>
+    <string name="condo">Condo</string>
+    <string name="boat_house">Boat House</string>
+    <string name="land">Land</string>
+    <string name="number_of_rooms">Number of Rooms</string>
+    <string name="one_to_three_rooms">1 to 3 Rooms</string>
+    <string name="no_rooms">No Rooms</string>
+    <string name="other_facilities">Other facilities</string>
+    <string name="swimmingPool">Swimming Pool</string>
+    <string name="garden_area">Garden Area</string>
+    <string name="garage">Garage</string>
+    <string name="sucess">Sucess</string>
+    <string name="not_1_to_3_option">now, you can not select 1 to 3 Rooms option</string>
+    <string name="not_land_option">now, you can not select land option</string>
+    <string name="not_garage_option">now, you can not select garage option</string>
+    <string name="not_boat_house_no_rooms_option">now, you can not select Boat house and No Rooms options</string>
+    <string name="not_no_room_option">now, you can not select no rooms option</string>
+</resources>
